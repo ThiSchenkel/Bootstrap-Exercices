@@ -1,8 +1,55 @@
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    max-width: 1440px;
+    margin: 2% auto;
 }
 
 img{
     border-radius: 50%;
-    width: 10%;
+    width: 40%;
+}
+
+.presentation{
+    width: 77%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e9ed;
+    margin: 0 auto;
+}
+
+.nom{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-self: flex-start;
+    padding-top: 5%;
+    margin: 1%;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.photo{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    margin-top: 2%;
+    
 }
